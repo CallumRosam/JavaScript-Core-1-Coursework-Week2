@@ -5,12 +5,15 @@
 */
 
 function first(arr) {
-  return; // complete this statement
+  if(!Array.isArray(arr)) return;
+  return arr[0]; // complete this statement
 }
 
 function last(arr) {
-  return; // complete this statement
+  if(!Array.isArray(arr)) return; // complete this statement
+  return arr[arr.length -1];
 }
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
